@@ -1,0 +1,51 @@
+/*inspired by https://codepen.io/cameronws/pen/zYwbLyK */
+
+.ticket {
+  margin: auto;
+  padding: 0.5em;
+  border: none;
+  cursor: pointer;
+}
+
+.basic:hover {
+  transform: scale(1.2);
+  box-shadow: black;
+}
+
+.basic {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 200px;
+  background: #efead8;
+}
+
+.ticket-content {
+  display: flex;
+  border: 9px solid crimson;
+  border-radius: 20px;
+  font-family: "Silkscreen", cursive;
+}
+
+.ticket-content-number {
+  padding: 0 6px;
+  writing-mode: tb-rl;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.ticket-content-message {
+  padding: 10px;
+  border-right: 10px solid crimson;
+  border-left: 9px solid crimson;
+  margin: 0;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: -3px;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+}
